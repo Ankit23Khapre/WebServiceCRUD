@@ -11,4 +11,10 @@ public class HomeController {
 	{
 		return "done...";
 	}
+	
+	@RequestMapping(value = "/app")
+	public String app()
+	{
+		return "done...";
+	}
 }
