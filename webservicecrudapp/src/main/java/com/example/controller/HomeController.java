@@ -9,12 +9,8 @@ public class HomeController {
 	@RequestMapping(value = "/appruning")
 	public String appRuning()
 	{
-		return "done...";
+		return "Hello.....";
 	}
 	
-	@RequestMapping(value = "/app")
-	public String app()
-	{
-		return "done...";
-	}
+	
 }
